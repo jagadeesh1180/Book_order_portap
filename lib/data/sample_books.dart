@@ -1,0 +1,10 @@
+import '../models/book_model.dart';
+
+const sampleBooks=[
+ Book(id:'1',title:'Clean Code',author:'Robert C. Martin',category:'Programming',description:'A practical guide to writing readable, maintainable and professional software.',coverUrl:'https://covers.openlibrary.org/b/title/Clean%20Code-L.jpg',pdfUrl:'https://example.com/clean-code.pdf',rating:4.8,pages:464,year:2008),
+ Book(id:'2',title:'Introduction to Algorithms',author:'Thomas H. Cormen',category:'Algorithms',description:'A comprehensive reference for fundamental algorithms and data structures.',coverUrl:'https://covers.openlibrary.org/b/title/Introduction%20to%20Algorithms-L.jpg',pdfUrl:'https://example.com/algorithms.pdf',rating:4.7,pages:1312,year:2009),
+ Book(id:'3',title:'Computer Networks',author:'Andrew S. Tanenbaum',category:'Networking',description:'Core concepts of computer networking, protocols and distributed communication.',coverUrl:'https://covers.openlibrary.org/b/title/Computer%20Networks-L.jpg',pdfUrl:'https://example.com/networks.pdf',rating:4.6,pages:960,year:2011),
+ Book(id:'4',title:'Database System Concepts',author:'Abraham Silberschatz',category:'DBMS',description:'Foundational database concepts including SQL, transactions and normalization.',coverUrl:'https://covers.openlibrary.org/b/title/Database%20System%20Concepts-L.jpg',pdfUrl:'https://example.com/dbms.pdf',rating:4.7,pages:1376,year:2019),
+ Book(id:'5',title:'Operating System Concepts',author:'Abraham Silberschatz',category:'Operating Systems',description:'Processes, memory management, storage and synchronization.',coverUrl:'https://covers.openlibrary.org/b/title/Operating%20System%20Concepts-L.jpg',pdfUrl:'https://example.com/os.pdf',rating:4.8,pages:976,year:2018),
+ Book(id:'6',title:'Artificial Intelligence: A Modern Approach',author:'Stuart Russell',category:'AI',description:'An introduction to artificial intelligence, agents, learning and reasoning.',coverUrl:'https://covers.openlibrary.org/b/title/Artificial%20Intelligence%20A%20Modern%20Approach-L.jpg',pdfUrl:'https://example.com/ai.pdf',rating:4.9,pages:1152,year:2021),
+];
